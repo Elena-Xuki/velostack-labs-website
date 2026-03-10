@@ -25,9 +25,7 @@ function App() {
 
       {/* Hero Section */}
       <section className="hero">
-        <div className="naics-badge">
-          NAICS 541511: Custom Computer Programming
-        </div>
+
         <h1>
           Engineering the <span className="text-gradient">Next Generation</span> of Software.
         </h1>
@@ -106,7 +104,6 @@ function App() {
         </div>
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Velostack Labs LLC. All rights reserved.</p>
-          <p>NAICS: 541511</p>
         </div>
       </footer>
     </div>
