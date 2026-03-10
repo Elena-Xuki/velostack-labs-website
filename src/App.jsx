@@ -99,7 +99,11 @@ function App() {
           
           <div>
             <h4 style={{ marginBottom: '1rem' }}>Contact</h4>
-            <p style={{ color: 'var(--color-text-secondary)' }}>hello@velostack.xyz</p>
+            <p style={{ color: 'var(--color-text-secondary)' }}>
+              <a href="mailto:velostacklabsllc@gmail.com" style={{ color: 'inherit', textDecoration: 'none' }}>
+                velostacklabsllc@gmail.com
+              </a>
+            </p>
           </div>
         </div>
         <div className="footer-bottom">
